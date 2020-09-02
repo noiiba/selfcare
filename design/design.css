@@ -25,7 +25,21 @@ width: 19.81px;
 height: 18.94px;
 left: 69px;
 top: 38.03px;
-background: #161616;
+}
+.selfcare {
+position: absolute;
+width: 91.28px;
+height: 31px;
+left: 97.42px;
+top: 32px;
+align-items: center;
+font-family: Cabin;
+font-style: normal;
+font-weight: 500;
+font-size: 25.8333px;
+line-height: 31px;
+
+color: #161616;
 }
 
 .boximg {
@@ -60,20 +74,4 @@ font-size: 78.1538px;
 line-height: 94px;
 letter-spacing: 0.3em;
 border: 3.90769px solid rgba(255, 255, 255, 0.1);
-}
-
-.selfcare {
-position: absolute;
-width: 91.28px;
-height: 31px;
-left: 97.42px;
-top: 32px;
-
-font-family: Cabin;
-font-style: normal;
-font-weight: 500;
-font-size: 25.8333px;
-line-height: 31px;
-
-color: #161616;
 }
