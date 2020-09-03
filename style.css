@@ -1,6 +1,17 @@
 body {
 background: #E5E5E5;
 }
+.banner{
+
+position: absolute;
+width: 1440px;
+height: 375px;
+left: 0px;
+top: 95px;
+
+background: #ADDE87;
+
+}
 .section2
 {
     display: flex;
@@ -21,7 +32,7 @@ background: #E5E5E5;
     color: #161616;
     
 }
-.section2 div img
+.section2 div
 {
     position: absolute;
     width: 303px; 
