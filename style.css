@@ -1,20 +1,26 @@
 body {
-background: #E5E5E5;
+    position: relative;
+width: 1440px;
+height: 2385px;
+background: #FFFFFF;
 }
 
 .header {
-position: absolute;
+justify-content: space-between;
 width: 100%;
 height: 94px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+}
 
+.header ul li {
+    list-style: none;
 }
 
 .banner{
-position: relative;
+position: absolute;
 width: 100%;
 height: 375px;
 padding: 0 auto;
@@ -24,12 +30,14 @@ background: #ADDE87;
 
 }
 .imagens{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;   
     justify-content: space-between;
     margin-top: 60px;
     padding: 50px;
+    left: 70px;
+    top: 612px;
 }
 .imagens p{
     text-align: center;
@@ -41,11 +49,8 @@ background: #ADDE87;
     font-size: 22px;
     line-height: 26px;
     color: #161616;
-    
 }
 .imagens div img{
-    display: flex;
-    flex-wrap: wrap;
     width: 303px; 
     height: 303px;
     left: 70px;
@@ -55,11 +60,25 @@ background: #ADDE87;
 }
 
 .hr {
-margin-top: 1rem;
-margin-bottom: 1rem;
-border: 0;
-border-top: 1px solid rgba(0,0,0,.1);
-box-sizing: content-box;
-height: 0;
-overflow: visible;
+    position: absolute;
+width: 1440px;
+height: 0px;
+left: 1px;
+top: 555px;
+
+border: 0.2px solid #A5A1A1;
+}
+
+.boxprod {
+    align-content: space-between;
+    position: absolute;
+    padding:10px;    
+    width: 1300px;
+    height: 24px;
+    left: 69px;
+    top: 503px;
+}
+.boxprod ul {
+    list-style: none;
+
 }
